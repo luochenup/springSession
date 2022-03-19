@@ -23,7 +23,7 @@ public class getSessionServlet extends HttpServlet {
         System.out.println("我是hot分支");
         System.out.println("我是hot分支");
         System.out.println("push");
-
+        System.out.println("pull一个");
 
     }
 
