@@ -19,6 +19,7 @@ public class getSessionServlet extends HttpServlet {
         String session = (String)req.getSession().getAttribute("session");
         PrintWriter writer = resp.getWriter();
         writer.println(session);
+        System.out.println("我是hot分支");
     }
 
     @Override
