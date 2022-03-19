@@ -20,6 +20,8 @@ public class getSessionServlet extends HttpServlet {
         PrintWriter writer = resp.getWriter();
         writer.println(session);
         System.out.println("nice");
+
+
     }
 
     @Override
