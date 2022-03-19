@@ -20,9 +20,9 @@ public class getSessionServlet extends HttpServlet {
         PrintWriter writer = resp.getWriter();
         writer.println(session);
         System.out.println("nice");
-
         System.out.println("我是hot分支");
         System.out.println("我是hot分支");
+        System.out.println("push");
 
 
     }
